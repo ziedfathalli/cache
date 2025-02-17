@@ -1,4 +1,4 @@
-# Tester les services avec CURL
+# API CACHE:
 
 Cette application Spring Boot implémente un **système de cache REST** avec **expiration automatique (TTL de 10s)**.  
 Elle utilise **ConcurrentHashMap** et un **scheduler** pour nettoyer les entrées expirées.
@@ -8,7 +8,7 @@ Elle utilise **ConcurrentHashMap** et un **scheduler** pour nettoyer les entrée
 - ✅ Expiration automatique des entrées après **10 secondes**.
 - ✅ Tests unitaires et tests d'intégration inclus.
 
-## Exécuter l'application :
+## Tester les services avec CURL :
 Pour tester les services avec CURL.
 - ✅ Ajout d'une valeur dans le cache :
 curl -X POST http://localhost:8082/cache/user123 -H "Content-Type: text/plain" -d "HelloWorld"
