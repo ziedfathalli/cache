@@ -9,7 +9,7 @@ Elle utilise **ConcurrentHashMap** et un **scheduler** pour nettoyer les entrée
 - ✅ Tests unitaires et tests d'intégration inclus.
 
 ## Exécuter l'application :
-Pour tester les services avec CURL
+Pour tester les services avec CURL.
 Ajout d'une valeur dans le cache :
 curl -X POST http://localhost:8080/cache/user123 -H "Content-Type: text/plain" -d "HelloWorld"
 Récupérez la valeur du cache :
